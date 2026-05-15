@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+header {
+    margin-top: 30px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #444;
+    color: white;
+}
+
+button:hover {
+    background: black;
+}
+
+/* CONTAINER DOS CARDS */
+.container-cards {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* CARD POKÉMON */
+.card {
+    background-color: #2c2c2c;
+    padding: 15px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+/* hover */
+.card:hover {
+    transform: scale(1.05);
+    background-color: black;
+}
+
+/* IMAGEM DO POKÉMON */
+.card img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* NOME */
+.card h3 {
+    font-size: 14px;
+    margin: 0;
+    text-transform: capitalize;
+}

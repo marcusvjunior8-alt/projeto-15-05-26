@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+header {
+    margin-top: 30px;
+}
+
+.container-api {
+    margin-top: 40px;
+}
+
+/* CARD (compatível com JS: class="card") */
+.card {
+    display: inline-block;
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 180px;
+    transition: 0.3s;
+}
+
+/* hover */
+.card:hover {
+    background-color: black;
+    transform: scale(1.05);
+}
+
+/* IMAGEM PEQUENA */
+.card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 10px;
+}
